@@ -1,0 +1,10 @@
+
+public class Admin extends User {
+   public Admin(String username) {
+        super(username, "Admin");
+    }
+
+    public void manageBooks() {
+        System.out.println("Admin dapat menambahkan, melihat, mendelete buku(add, view, delete).");
+    }
+}
