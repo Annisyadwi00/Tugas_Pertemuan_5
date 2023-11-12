@@ -1,0 +1,15 @@
+
+public class LibraryManagementSystem {
+    public static void main(String[] args) {
+        
+        User user = new User("Annisya", "Pengguna");
+        user.displayUserInfo();
+
+        Admin admin = new Admin("Admin123");
+        admin.displayUserInfo();
+        admin.manageBooks(); 
+
+        Book book = new Book("Matematika SD", "Buku Pelajaran");
+        book.displayBookInfo();
+    }
+}
